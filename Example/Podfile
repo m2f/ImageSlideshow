@@ -1,5 +1,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
 use_frameworks!
+inhibit_all_warnings!
 
 target 'ImageSlideshow_Example' do
     pod "ImageSlideshow", :path => "../"
@@ -7,4 +10,6 @@ target 'ImageSlideshow_Example' do
     pod "ImageSlideshow/Alamofire", :path => "../"
     pod "ImageSlideshow/SDWebImage", :path => "../"
     pod "ImageSlideshow/Kingfisher", :path => "../"
+    pod "BMPlayer", "~> 1.0.0"
+    pod 'MHVideoPhotoGallery', '~> 2.2.0'
 end

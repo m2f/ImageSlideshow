@@ -79,17 +79,31 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="5ib-Id-08S">
+                                <rect key="frame" x="16" y="330" width="349" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8lL-mX-H0K">
+                                <rect key="frame" x="124" y="569" width="115" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Full Screen"/>
+                                <connections>
+                                    <action selector="showFullScreen:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="soc-Hq-fdv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Slideshow" id="Jsp-k1-h2n"/>
                     <connections>
+                        <outlet property="playerConatiner" destination="5ib-Id-08S" id="2J4-qH-2i8"/>
                         <outlet property="slideshow" destination="L16-jC-HJe" id="vzm-Jx-I68"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-271" y="-162"/>
+            <point key="canvasLocation" x="-271.5" y="-162.5"/>
         </scene>
     </scenes>
 </document>

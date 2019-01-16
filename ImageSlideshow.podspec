@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ImageSlideshow"
-  s.version          = "1.5.3"
+  s.version          = "1.5.3x"
   s.summary          = "Image slideshow written in Swift with circular scrolling, timer and full screen viewer"
 
 # This description is used to generate tags and improve search results.
@@ -35,6 +35,7 @@ Image slideshow is a Swift library providing customizable image slideshow with c
     core.resource_bundles = {
         'ImageSlideshow' => ['ImageSlideshow/Assets/*.png']
     }
+    core.dependency 'youtube-ios-player-helper', '~> 0.1.4'
   end
 
   s.subspec 'AFURL' do |subspec|

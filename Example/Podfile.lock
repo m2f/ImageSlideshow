@@ -1,69 +1,89 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - Alamofire (4.5.1)
-  - AlamofireImage (3.3.0):
+  - Alamofire (4.7.2)
+  - AlamofireImage (3.3.1):
     - Alamofire (~> 4.5)
-  - ImageSlideshow (1.5.1):
-    - ImageSlideshow/Core (= 1.5.1)
-  - ImageSlideshow/AFURL (1.5.1):
+  - BMPlayer (1.0.1):
+    - BMPlayer/Full (= 1.0.1)
+  - BMPlayer/Core (1.0.1)
+  - BMPlayer/Full (1.0.1):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.0.0)
+    - SnapKit (~> 4.0.0)
+  - ImageSlideshow (1.5.3x):
+    - ImageSlideshow/Core (= 1.5.3x)
+  - ImageSlideshow/AFURL (1.5.3x):
     - AFNetworking (~> 3.0)
     - ImageSlideshow/Core
-  - ImageSlideshow/Alamofire (1.5.1):
+  - ImageSlideshow/Alamofire (1.5.3x):
     - AlamofireImage (~> 3.0)
     - ImageSlideshow/Core
-  - ImageSlideshow/Core (1.5.1)
-  - ImageSlideshow/Kingfisher (1.5.1):
+  - ImageSlideshow/Core (1.5.3x):
+    - youtube-ios-player-helper (~> 0.1.4)
+  - ImageSlideshow/Kingfisher (1.5.3x):
     - ImageSlideshow/Core
     - Kingfisher (> 3.0)
-  - ImageSlideshow/SDWebImage (1.5.1):
+  - ImageSlideshow/SDWebImage (1.5.3x):
     - ImageSlideshow/Core
     - SDWebImage (< 5.0, >= 3.7)
-  - Kingfisher (4.0.1)
-  - SDWebImage (3.8.2):
-    - SDWebImage/Core (= 3.8.2)
-  - SDWebImage/Core (3.8.2)
+  - Kingfisher (4.7.0)
+  - Masonry (1.1.0)
+  - MHVideoPhotoGallery (2.2.0):
+    - Masonry
+    - SDWebImage
+    - TTTAttributedLabel (= 1.13.3)
+  - NVActivityIndicatorView (4.0.1):
+    - NVActivityIndicatorView/Presenter (= 4.0.1)
+  - NVActivityIndicatorView/Presenter (4.0.1)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SnapKit (4.0.0)
+  - TTTAttributedLabel (1.13.3)
+  - youtube-ios-player-helper (0.1.6)
 
 DEPENDENCIES:
+  - BMPlayer (~> 1.0.0)
   - ImageSlideshow (from `../`)
   - ImageSlideshow/AFURL (from `../`)
   - ImageSlideshow/Alamofire (from `../`)
   - ImageSlideshow/Kingfisher (from `../`)
   - ImageSlideshow/SDWebImage (from `../`)
-
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - AFNetworking
-    - Alamofire
-    - AlamofireImage
-    - Kingfisher
-    - SDWebImage
+  - MHVideoPhotoGallery (~> 2.2.0)
 
 EXTERNAL SOURCES:
   ImageSlideshow:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
-  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
-  ImageSlideshow: c9f3af322fab127890337728be4ec6109587d3ac
-  Kingfisher: b771785e9461ed4b8686d40e7145f9e58100cb24
-  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  BMPlayer: 44eebf06eb01450dd14ea74b27d07c5222f0eed1
+  ImageSlideshow: 8bb13774204dd5ecc58b626dd31ddeaa9aa6998b
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MHVideoPhotoGallery: cacbb15a69dec8b411bb0c0fb96df2fc1234778a
+  NVActivityIndicatorView: 77ed6d7b571643e24899e7858bf9ae2ee4c21f31
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  TTTAttributedLabel: 6f3174aef8e738f44dff97c2eb7d8184f6ab6277
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
 
-PODFILE CHECKSUM: 9f5f0235fb1728554054ee3ff7128ff5d4729418
+PODFILE CHECKSUM: 29ac4e3057b1f21f936791ee685f1f178aaa0f29
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.3.1

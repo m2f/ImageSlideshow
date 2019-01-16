@@ -482,7 +482,6 @@ extension ImageSlideshow: UIScrollViewDelegate {
                 scrollView.contentOffset = CGPoint(x: scrollView.contentOffset.x + regularContentOffset, y: 0)
             }
         }
-
         pageControl.currentPage = currentPageForScrollViewPage(primaryVisiblePage)
     }
 }

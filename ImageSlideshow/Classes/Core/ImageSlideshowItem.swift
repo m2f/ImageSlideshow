@@ -236,4 +236,9 @@ open class ImageSlideshowItem: UIScrollView, UIScrollViewDelegate {
         return zoomEnabled ? imageView : nil
     }
 
+    // MARK: SlideshowItem delegate
+    public func isImage() -> Bool {
+        return true
+    }
+
 }

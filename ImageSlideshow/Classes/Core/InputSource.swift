@@ -19,6 +19,11 @@ import UIKit
     func load(to imageView: UIImageView, with callback: @escaping (_ image: UIImage?) -> Void)
     
     /**
+     Get youtube videoId
+     */
+    @objc optional func getVideoId() -> String
+
+    /**
      Cancel image load on the image view
      - parameter imageView: Image view that is loading the image
     */
